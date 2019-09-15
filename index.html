@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JPStats - See Job Posting Statistics</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-primary mb-5">
+        <div class="container">
+            <a class="navbar-brand text-white">JPStats</a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Keyword" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card border-primary">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Programming Languages</h5>
+                            </div>
+                            <p class="mb-1">Java, Python, PHP, C++, Javascript, Ruby</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Native Mobile App Development Frameworks</h5>
+                            </div>
+                            <p class="mb-1">React Native, Flutter, Ionic, Xamarin, NativeScript</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">FrontEnd Javascript Frameworks</h5>
+                            </div>
+                            <p class="mb-1">React, Angular, Vue</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">BackEnd Frameworks</h5>
+                            </div>
+                            <p class="mb-1">Express JS, Koa, Django, Flask, Laravel, Symfony, ASP.NET, Spring, Ruby on Rails</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Databases</h5>
+                            </div>
+                            <p class="mb-1">MySQL, Oracle, MS SQL, PostgreSQL, MongoDB, MariaDB, Firebase, Redis, Solr, Elasticsearch, Riak, Cassandra</p> <!-- SQLite,-->
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body h-100">
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"
+        integrity="sha256-qSIshlknROr4J8GMHRlW3fGKrPki733tLq+qeMCR05Q=" crossorigin="anonymous"></script>
+    <!-- Custom scripts -->
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
